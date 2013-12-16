@@ -1,2 +1,15 @@
-%h1 Home#index
-%p Find me in app/views/home/index.html.haml
+%ol.sortable
+  %li#id_1
+    %div Some content
+  %li#id_2
+    %div Some content
+    %ol
+      %li#id_3
+        %div Some sub-item content
+      %li#id_4
+        %div Some sub-item content
+  %li#id_5
+    %div Some content
+
+= content_for(:javascript_code) do
+  PagesManagement.init();

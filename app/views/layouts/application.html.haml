@@ -9,7 +9,7 @@
     / Le HTML5 shim, for IE6-8 support of HTML elements
     /[if lt IE 9]
       = javascript_include_tag "//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"
-    = stylesheet_link_tag "application", :media => "all"
+    = stylesheet_link_tag "admin", :media => "all"
     = render 'layout_components/favicons'
 
   %body
@@ -23,6 +23,7 @@
           %li
             %a{href: "#"} Contact
         %h3.text-muted Project name
+      = yield
       .jumbotron
         %h1 Jumbotron heading
         %p.lead Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
@@ -46,5 +47,5 @@
       .footer
         %p © Company 2013
         
-    = javascript_include_tag 'application', media: 'all'
+    = javascript_include_tag 'admin', media: 'all'
     = javascript_tag "$(function() { #{yield(:javascript_code)} });" if content_for? :javascript_code
