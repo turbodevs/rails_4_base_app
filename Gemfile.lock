@@ -146,6 +146,8 @@ GEM
     less-rails (2.4.2)
       actionpack (>= 3.1)
       less (~> 2.4.0)
+    less-rails-bootstrap (3.0.6)
+      less-rails (~> 2.4.2)
     libv8 (3.16.14.3)
     mail (2.5.4)
       mime-types (~> 1.16)
@@ -334,6 +336,7 @@ DEPENDENCIES
   kaminari
   launchy
   less-rails
+  less-rails-bootstrap
   mysql2
   pg
   rails (= 4.0.0)
