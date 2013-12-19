@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 ruby "2.0.0"
 
-gem 'rails', '4.0.0'
+gem 'rails', '4.0.2'
 gem 'devise'
 
 # UI
@@ -35,7 +35,7 @@ gem 'foreman'
 
 # API
 gem "active_model_serializers"
-gem 'jbuilder', '~> 1.2'
+gem 'jbuilder'
 gem 'rest-client'
 
 # Errors detector
