@@ -1,1 +1,1 @@
-rvm use 2.0.0-p247@rails_4_base_app --create
+rvm use 2.0.0-p247@snyat_com_gemset --create
