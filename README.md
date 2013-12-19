@@ -1,4 +1,4 @@
-## Rails 4 (Ruby 2.0.0) API base application sceleton
+## Rails 4 (Ruby 2.0.0) base application sceleton
 
 ### Features
 
@@ -59,7 +59,7 @@
 
 ### Quick start
 
-  * `git clone git@github.com:RuslanHamidullin/rails_4_rest_api_base.git --origin rails_4_rest_api_base 
+  * `git clone git@github.com:turbodevs/rails_4_base_app.git --origin rails_4_base_app
     [YOUR-PROJECT-NAME]`
   * `bundle`
   * `rake db:create && rake db:migrate`
